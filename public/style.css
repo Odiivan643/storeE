@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    
+    padding: 0px;
+}
+body{
+    background-color: #ffff;
+}
+.container{
+    flex: 1;
+}
+nav{
+    
+    display:flex;
+    flex-direction: row;
+    /* background-color: rgb(35, 56, 56);  */
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+}
+ul{
+    margin-left: 60%;
+    margin-top: 5px;
+    
+}
+li{
+    margin: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(7, 8, 8);
+}
+a:hover{
+    color: blueviolet;
+}
+
+.panier{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+footer{
+    background-color: rgb(15, 14, 14);
+    color: rgb(152, 147, 147);
+    position: absolute;
+    margin: 0; 
+    padding-bottom: 15px;
+    top: 1500px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    text-align: center;
+}
+footer div {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.divlogo{
+    border: solid 2px white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    opacity: 10px;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+.divlogo img{
+    padding-left: 40px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    
+    
+}
+.company{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.company h3{
+    position: absolute;
+    top: 147px;
+    left: 150px;
+    font-size: 30px;
+    color: black;
+
+}
+.company p{
+    position: absolute;
+    left: 55px;
+    top: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 30px;
+    color: rgb(167, 176, 173);
+}
+.product{
+    display: flex;
+    flex-direction: column;
+   
+}
+.product h3{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    font-size: 30px;
+    color: black;
+}
+.product p{
+    position: absolute;
+    left: 420px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 30px;
+    color: rgb(167, 176, 173);
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links h3{
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    font-size: 30px;
+    color: black;
+}
+.links p{
+    position: absolute;
+    left: 660px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 30px;
+    color: rgb(167, 176, 173);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact h3{
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    font-size: 30px;
+    color: black;
+}
+.contact img{
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .env{
+    position: absolute;
+    top: 240px;
+}
+.contact .tel{
+    position: absolute;
+    top: 280px;
+}
+.contact .imp{
+    position: absolute;
+    top: 318px;
+}
+.contact p{
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 30px;
+    color: rgb(167, 176, 173);
+}
+.contact .p1{
+    position: absolute;
+    left: 1045px;
+    top: 200px;
+    
+}
+.contact .p2{
+    position: absolute;
+    left: 1045px;
+    top: 235px;
+    
+}
+.contact .p3{
+    position: absolute;
+    left: 1045px;
+    top: 278px;
+    
+}
+.contact .p4{
+    position: absolute;
+    left: 1045px;
+    top: 315px;
+    
+}
+.copyright{
+    /* background-color:rgb(167, 176, 173); */
+    bottom: 0px;
+    position: absolute;
+    padding-left: 260px;
+    padding-top: 45px;
+    margin: 0;
+    width: 80%;
+ }
+ .copyright p{
+   position: absolute;
+   top: 10px;
+   left: 550px;
+   font-size: 20px;
+ }
+
+ .a_footer{
+    text-decoration: none;
+    color: rgb(167, 176, 173);
+ }
+
+ .a_footer:hover{
+    color: orange;
+ }
